@@ -75,9 +75,8 @@ def get_user_input():
 
     user_input = input('Ask what you wish: ')
     
-    if user_input != str(user_input):
-        print('You did not ask a question')
-    else:
-        get_answer()
-        
+    if user_input.isnumeric():
+        print('you did not give an answer')
+    else: 
+        get_answer()        
 get_user_input()
