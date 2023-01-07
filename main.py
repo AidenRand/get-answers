@@ -9,74 +9,76 @@ def get_answer():
 
     match number:
         case 1:
-            print("It is certain")
+            print("\nIt is certain\n")
 
         case 2:
-            print("It is decidedly so")
+            print("\nIt is decidedly so\n")
 
         case 3:
-            print("Without a doubt")
+            print("\nWithout a doubt\n")
 
         case 4:
-            print("Yes definitely")
+            print("\nYes definitely\n")
 
         case 5:
-            print("You may rely on it")
+            print("\nYou may rely on it\n")
 
         case 6:
-            print("As I see it, yes")
+            print("\nAs I see it, yes\n")
 
         case 7:
-            print("Most likely")
+            print("\nMost likely\n")
 
         case 8:
-            print("Outlook good")
+            print("\nOutlook good\n")
 
         case 9:
-            print("Yes")
+            print("\nYes\n")
 
         case 10:
-            print("Signs point to yes")
+            print("\nSigns point to yes\n")
 
         case 11:
-            print("Reply hazy, try again")
+            print("\nReply hazy, try again\n")
 
         case 12:
-            print("Ask again later")
+            print("\nAsk again later\n")
 
         case 13:
-            print("Better not tell you now")
+            print("\nBetter not tell you now\n")
 
         case 14:
-            print("Cannot predict right now")
+            print("\nCannot predict right now\n")
 
         case 15:
-            print("Concentrate and ask again")
+            print("\nConcentrate and ask again\n")
 
         case 16:
-            print("Do not count on it")
+            print("\nDo not count on it\n")
 
         case 17:
-            print("My reply is no")
+            print("\nMy reply is no\n")
 
         case 18:
-            print("My sources say no")
+            print("\nMy sources say no\n")
 
         case 19:
-            print("Outlook not so good")
+            print("\nOutlook not so goodn\n")
 
         case 20:
-            print("Very doubtful")
+            print("\nVery doubtful\n")
 
 
 def get_user_input():
     """Get input from the user and exexute
     get_answer function if input is a string"""
 
-    user_input = input('Ask what you wish: ')
-    
+    user_input = input("\nAsk what you wish: ")
+
     if user_input.isnumeric():
-        print('you did not give an answer')
-    else: 
-        get_answer()        
+        print("\nyou did not give an answer\n")
+    else:
+        get_answer()
+
+
 get_user_input()
